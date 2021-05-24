@@ -37,13 +37,14 @@ class Solve3 {
             }
         }
         for item in temp1.sorted(by: {
-            if ($0.1 == $1.1) {
+            if ($0.value == $1.value) {
                 return false
             }
             return $0.1 < $1.1
                                     
             
         }) {
+            
             result.append("\(item.key.replacingOccurrences(of: "_", with: "")) \(item.value)")
         }
         input = result

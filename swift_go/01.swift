@@ -10,40 +10,37 @@ import Foundation
 // too slow...
 class Solve4 {
     func que() {
-        var list = [Int]()
+        var list = ArraySlice<Int>()
         var number: Int
+        var input: String
+        
         number = Int(readLine()!)!
         while number > 0 {
-            var input: String
             
             number -= 1
             input = readLine()!
             switch input {
             case "pop":
-                if list.count != 0 {
-                    print(list.remove(at: 0))
-                } else {
-                    print(-1)
-                }
+                print(list.popFirst() ?? -1)
             case "size":
                 print(list.count)
             case "empty":
-                if list.count == 0 {
+                if list.isEmpty {
                     print(1)
                 } else {
                     print(0)
                 }
             case "front":
-                if list.count == 0 {
+                if list.isEmpty {
                     print(-1)
                 } else {
-                    print(list[0])
+                    print(list.first!)
                 }
             case "back":
-                if list.count == 0 {
+                if list.isEmpty {
                     print(-1)
                 } else {
-                    print(list[list.count - 1])
+                    print(list.last!)
                 }
             default:
                 let a = input.index(input.startIndex, offsetBy: 5)
@@ -53,7 +50,7 @@ class Solve4 {
     }
 }
 
-class Solve6 {
+class Solve5 {
     func mostCommonWord(_ paragraph: String, _ banned: [String]) -> String {
         let temp = paragraph.lowercased().replacingOccurrences(of: ",", with: " ")
         var data = String()

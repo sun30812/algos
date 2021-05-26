@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		97116C70265B9A3A00BE574C /* 01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97116C6F265B9A3A00BE574C /* 01.swift */; };
+		97116C72265BB98D00BE574C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97116C71265BB98D00BE574C /* main.swift */; };
+		97116C74265E69C400BE574C /* 02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97116C73265E69C400BE574C /* 02.swift */; };
 		97DC096E263C0C5A000F1949 /* 00.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC096D263C0C5A000F1949 /* 00.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		97116C6F265B9A3A00BE574C /* 01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 01.swift; sourceTree = "<group>"; };
+		97116C71265BB98D00BE574C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		97116C73265E69C400BE574C /* 02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02.swift; sourceTree = "<group>"; };
 		97DB1A402658E124002223AA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		97DC096A263C0C5A000F1949 /* swift_go */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_go; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DC096D263C0C5A000F1949 /* 00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 00.swift; sourceTree = "<group>"; };
@@ -61,8 +65,10 @@
 		97DC096C263C0C5A000F1949 /* swift_go */ = {
 			isa = PBXGroup;
 			children = (
+				97116C71265BB98D00BE574C /* main.swift */,
 				97DC096D263C0C5A000F1949 /* 00.swift */,
 				97116C6F265B9A3A00BE574C /* 01.swift */,
+				97116C73265E69C400BE574C /* 02.swift */,
 			);
 			path = swift_go;
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97116C70265B9A3A00BE574C /* 01.swift in Sources */,
+				97116C74265E69C400BE574C /* 02.swift in Sources */,
 				97DC096E263C0C5A000F1949 /* 00.swift in Sources */,
+				97116C72265BB98D00BE574C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

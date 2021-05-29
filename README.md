@@ -12,3 +12,7 @@ Solve3 -> [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data
 ### 01
 Solve4 ->[Queue2(korean, unsolve)](https://www.acmicpc.net/problem/18258)  
 Solve5 ->[Most Common Word](https://leetcode.com/problems/most-common-word/)  
+
+### 02
+Solve7 -> [Two Sum](https://leetcode.com/problems/two-sum/)
+Solve8(Fail) -> [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
